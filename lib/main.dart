@@ -24,10 +24,16 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.bold,
             fontSize: 16,
           )
+        ),
+        textTheme: const TextTheme(
+          titleLarge:TextStyle(
+             fontWeight: FontWeight.bold,
+             fontSize: 35,
+          ) 
         )
 
       ),
-      home: Homepage(),
+      home: const Homepage(),
     );
   }
 }
