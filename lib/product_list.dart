@@ -35,7 +35,7 @@ class _ProductListState extends State<ProductList> {
              Row(
               children: [
                  Padding(
-                  padding:  EdgeInsets.all(18.0),
+                  padding:  const EdgeInsets.all(18.0),
                   child: Text("     Shoes\nCollection",
                   style: Theme.of(context).textTheme.titleLarge,),
                 ),
